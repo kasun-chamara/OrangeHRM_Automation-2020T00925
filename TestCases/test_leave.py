@@ -35,4 +35,4 @@ class TestLeave:
         
         # Verify leave page is loaded
         assert leave_page.is_leave_header_displayed() == True
-        time.sleep(3)  # Just for demo, remove in actual tests
+        time.sleep(3)  

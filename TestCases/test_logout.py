@@ -34,4 +34,4 @@ class TestLogout:
         
         # Verify we're back to login page
         assert login_page.is_login_panel_displayed() == True
-        time.sleep(3)  # Just for demo, remove in actual tests
+        time.sleep(3)  

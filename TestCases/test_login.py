@@ -40,4 +40,4 @@ class TestLogin:
         
         # Verify dashboard page is loaded
         assert dashboard_page.is_dashboard_header_displayed() == True
-        time.sleep(3)  # Just for demo, remove in actual tests
+        time.sleep(3)  
